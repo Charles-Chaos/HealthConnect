@@ -1,0 +1,477 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+}
+
+header {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    background-color: #5341fd;
+    color: white;
+    /* padding: 14px 16px; */
+    /* text-align: center; */
+    /* overflow: hidden; */
+    float: left;
+}
+
+
+.logo {
+    max-width: 5rem;
+    height: 4rem;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 3rem;
+}
+.health_text{
+    color: #fff;
+    position: relative;
+    padding-left: 0.2rem;
+    padding-right: 14rem;
+    /* height: 15rem; */
+    /* width: 5%; */
+}
+a{
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    /* justify-content: end; */
+    /* align-items: center; */
+    list-style: none;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    /* flex: 5; */
+}
+nav a:hover{
+    color: black;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+/* nav ul li {
+    display: flex;
+    margin: 0 10px;
+} */
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 10px;
+}
+
+/* why choose health connect */
+#features{
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(3, 3, 3);
+    cursor: pointer;
+}
+.why h2{
+   padding-top: 6rem;
+   /* font-weight: 800; */
+   /* color: rgb(129, 157, 248); */
+   padding-bottom: 3rem;
+}
+
+ul li{
+    padding-bottom: 2rem;
+}
+li{
+    list-style: none;
+}
+
+
+/* ABOUT HEALTH CONNECT */
+#about{
+    /* height: 90vh; */
+    min-width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-weight: 800;
+    color: rgb(129, 157, 248);
+    text-align: center;
+}
+#about h2{
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    margin: 2.5rem 0;
+    /* color: rgb(129, 157, 248); */
+    font-weight: 800;
+}
+#about p{
+    text-align: center;
+    /* font-style: italic; */
+    font-size: larger;
+}
+.div_container{
+    display: flex;
+    gap: 5rem;
+    margin: 4rem;
+    /* padding: 0, 2rem; */
+    justify-content: center;
+    align-items: center;
+}
+.div_container h4{
+    text-align: center;
+}
+.div_box{
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 100%; */
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #202222;
+  }
+  
+  .div_box:hover .overlay {
+    opacity: 0.9;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px) */
+
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+  }
+
+.div1{
+    /* height: 25rem; */
+    height: auto;
+    /* width: 20rem; */
+    width: 100%;
+    border-radius: 0.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* NUTRITION SECTION STYLING  */
+#nutrition{
+    height: 90vh;
+    width: 100%;
+}
+.btn_class{
+    text-align: center;
+    border: none;
+}
+.btn{
+    border: none;
+    height: 3rem;
+    width: 7rem;
+    background: #555454;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+    background: #5341fd;
+    height: 3.5rem;
+    width: 7.5rem;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* CONTACT SECTION STYLING */
+
+#contact{
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+form{
+    display: block;
+    margin: 2rem;
+    font-weight: 700;
+    color: #7a70d3;
+
+}
+input{
+    /* border-color: #202222; */
+    border-radius: 0.2rem;
+    border: none;
+    background: #e9e6e6;
+    height: 1.5rem;
+    width: 9rem;
+    /* gap: 4rem; */
+    /* padding-bottom: 7rem; */
+    /* background: #000; */
+}
+input:hover{
+    background: #555454;
+    color: white;
+    border: none;
+    height: 2rem;
+    width: 10rem;
+}
+.message{
+    margin: 2rem;
+}
+#message{
+    background: #dad7d7;
+    border-radius: 0.3rem;
+    color: #000;
+    border: none;
+    font-size: larger;
+
+}
+.butt{
+    border: none;
+    background: rgb(87, 88, 92);
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    height: 2.5rem;
+    width: 6rem;
+    margin: 1rem;
+    margin-left: 6rem;
+    color: #fff;
+}
+.butt:hover{
+    background: #5341fd;
+    height: 3rem;
+    width: 7rem;
+}
+
+footer {
+    display: inline-block;
+    background-color: #626263;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+.socials_container{
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+
+}
+.social{
+    display: inline;
+}
+
+.icon4:hover{
+    transform: rotate(360);
+    transition: 300ms ease;
+    height: 2rem;
+    width: 2.5rem;
+}
+.icon4{
+    height: 4rem;
+    width: 5rem;
+}
+
+
+/* DIAGNOSIS PAGE STYLING */
+#diagnosis {
+    position: relative;
+    /* padding: auto; */
+    margin: 3rem;
+    height: 50vh;
+    max-width: 100%;
+    display: inline;
+
+}
+#diagnosis h2{
+    padding-top: 5rem;
+}
+#diagnosis h4{
+    text-align: center;
+    color: #626263;
+}
+
+.diagnosis_container{
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+}
+.dia_img{
+    height: auto;
+    width: 30rem;
+    /* margin: 2rem; */
+}
+
+.diagnosis_details{
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    color: #3d3d3d;
+   
+}
+
+
+.dia{
+    margin-bottom: 3rem;
+}
+
+::placeholder{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: larger;
+}
+#symptoms{
+    border-radius: 1rem;
+}
+
+.but2{
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 12rem;
+    background: #c4c4c5;
+}
+.but2:hover{
+    color: #fff;
+    background: #5341fd;
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 375px) {
+    /* General Styles for Centering */
+    body {
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .logo {
+        max-width: 3.5rem;
+        height: auto;
+        margin-bottom: 10px;
+        margin-right: 2rem;
+    }
+
+    .health_text {
+        font-size: 1.5rem;
+        padding-left: 14rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+    #about .last{
+        font-size: smaller;
+        font-weight: bold;
+        align-items: center;
+        text-align: center;
+        color: #000;
+    }
+    .div_container, .diagnosis_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_box, .diagnosis_details, #contact form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .div_box img, .dia_img img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    /* .btn_class, .butt,  */
+
+    .btn_class.butt{
+        width: 100%;
+       
+    }
+
+    .socials_container {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #contact{
+        position: relative;
+        height: 55vh;
+    }
+    #contact .butt{
+        margin-right: 5rem;
+    }
+    #nutrition{
+        position: relative;
+        height: 170vh;
+    }
+    .social img {
+        width: 25px;
+        height: 25px;
+        margin: 0 5px;
+    }
+
+    #diagnosis label, #contact label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    #diagnosis input[type="text"], #diagnosis textarea, #contact input[type="text"], #contact textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dia {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .but2{
+        margin-right: 10rem
+    }
+}

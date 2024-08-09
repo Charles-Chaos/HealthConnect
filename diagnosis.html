@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthConnect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="resources/forgotten.jpg"alt="HealthConnect Logo" class="logo">
+        <a href="index.html"><h1 class="health_text">HealthConnect</h1></a>
+        <nav>
+            <ul class="float">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="diagnosis.html">Diagnosis</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="diagnosis">
+            <h2>Get Instant Diagnosis</h3>
+            <h4>Fill in the Follow Information;</h4>
+            <div class="diagnosis_container">
+                <div class="dia_img">
+                    <img src="resources/2156664.jpg" alt="icon3" class="dia_img">
+                </div>
+                <div class="diagnosis_details">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter your name / Patient's name" class="dia" style="height: 2rem; width: 15rem;"><br>
+
+
+                    <label for="date of birth">Date of Birth:</label>
+                    <input type="date" name="date of birth" id="dob" style="margin-bottom: 2rem;"><br>
+
+                    <label for="sex" style="padding-right: 1rem;">Sex:</label>
+                    <label for="male">Male:</label>
+                    <input type="radio" name="gender" id="male" value="male" checked>
+                    <label for="female">Female:</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                   <br>
+                    </fieldset>
+
+      <!-- <fieldset data-role="controlgroup"> -->
+
+                    <!-- <label for="sex" >Sex:</label>
+                    <input type="radio" name="" id=""> -->
+
+                    <label for="pain">Degree of pain</label>
+                    <input type="range" class="dia"><br>
+                    <label for="weight">Weight (kgs):</label>
+                    <input type="text" value="" class="dia"><br>
+                    <label for="symptoms">Symptoms:</label>
+                    <textarea name="symptoms" id="symptoms" placeholder="Tell us how you are feeling today" style="height: 6rem; width: 16rem;"></textarea><br>
+                </div>
+                <button class="but2">submit</button>
+
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"> <br>
+                <div class="message">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea><br>
+                    <button type="submit" class="butt">Submit</button>
+                </div>
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Address</p>
+        <p>Social Media</p>
+        <p>FAQ</p>
+        <div class="socials_container">
+            <div class="social">
+                <a href="https://www.instagram.com/bosuntijani/"><img src="resources/freepik_br_347b4b01-2696-4dd3-b599-193c39f4b8bf.png" alt="instagram.png" class="icon4"></a>
+            <div class="social">
+                <a href="https://x.com/3MTTNigeria"><img src="resources/10464257.png" alt="X.png"class="icon4"></a>
+            <div class="social">
+            <div class="social">
+                <a href="https://wa.me/message/5KXOZ3ERU2H7A1"><img src="resources/freepik_br_a883cc56-ecde-4037-b3e3-96c4f3aeb1e5.png" alt="whatapp.png" class="icon4"></a>
+            </div>
+        </div>
+        <p>&copy; 2024 HealthConnect. All rights reserved.</p>
+
+        
+    </footer>
+</body>
+</html>
